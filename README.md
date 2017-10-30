@@ -12,6 +12,8 @@ Data columns explained (ignore the ones that are not listed):
 - Peak c/s: Maximum cycles per second of flare
 - Energy kEv: Energy emitted from flare 
 
+The challenge:
+
 1. Cleanse and extract the data in a useable format for machine learning. Ideally into a database. Please use Python
 2. Perform analysis on the data to find "interestingness" or correlations among the columns (if any). 
 3. Perform anomaly detection on the Dur (duration in seconds) column. It's up to you how you approach this. The timestamps for the data are also in random intervals, it's your choice how you approach this.
